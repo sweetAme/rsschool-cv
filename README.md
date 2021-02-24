@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sweetAme.github.io/rsschool-cv/cv
