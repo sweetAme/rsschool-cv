@@ -1,0 +1,135 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+footer {
+    background-color: rgb(77,77, 77);
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+code {
+    background-color: #ebebeb;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f33333;
+    color: #666;
+    font-family: monospace;
+    font-size: 14px;
+    max-width: 70%;
+    margin-left: 1%;
+    padding: 1em 1.5em;
+    display: block;
+}
+
+.picture {
+    position: relative;
+    left: 10px;
+    top: 20px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #15a9ff;
+    border-radius: 100%;
+}
+
+.socials .logo {
+    width: 40px;
+    height: 40px;
+}
+
+.github-logo {
+    display: inline-block;
+    max-width: 8%;
+}
+
+.rs-logo {
+    display: inline-block;
+    margin-left: 30px;
+    max-width: 15%;
+    position: relative;
+    top: -8px;
+}
+
+.youtube-logo {
+    display: inline-block;
+    margin-left: 30px;
+    max-width: 10%;
+    position: relative;
+}
+
+.general {
+    background-color: #f7f6f6;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left: solid 50px;
+    border-left-color: #15a9ff;
+}
+
+.general section {
+    margin-left: 2%;
+}
+
+.general p {
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 4px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.credentials {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.name {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.occupation {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.socials {
+    position: relative;
+    left: -190px;
+    top: 25px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.socials p {
+    display: inline;
+    position: relative;
+    top: -13px;
+}

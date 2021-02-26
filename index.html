@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="./styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="general">
+        <header class="header">
+            <img class= "picture" src="./images/picture.png" alt="My photo">
+            <div class="contact-info">
+                <div class="credentials">
+                    <h3 class="name">Goryunov Nikita</h3>
+                    <p class="occupation">Student</p>
+                </div>
+                <ul class="socials">
+                    <li><img class="logo" src="./images/discord.png" alt="Discord logo" title="Discord"><p>Ame#3561</p></li>
+                    <li><img class="logo" src="./images/telegram.png" alt="Telegram logo" title="Telegram"><p>@sweetAme</p></li>
+                    <li><img class="logo" src="./images/gmail.png" alt="Gmail logo" title="Gmail"><p>reskeleton@gmail.com</p></li>
+                </ul>
+            </div>
+            <!-- img, name, contacts -->
+        </header>
+        <main>
+            <section>   
+                <h2 class="title">Bio</h2>
+                <p>A second-year student at Admiral Makarov State University of Maritime and Inland Shipping. Specialization: Information security.</p>
+                <p>I’m interested in information security in general, penetration testing, CTF events.</p>
+                <p>Currently, web development is my main point of interest as I’m looking forward to work as a full-time web developer after graduation</p>
+            </section>
+            <section>
+                <h2 class="title">Skills</h2>
+                <p>I don’t have any real work experience apart from my own small projects where I got some experience using Flask web framework with Jinja template engine with Bootstrap 4 CSS framework to create basic websites with login/registration using MySQL/SQLite.</p>
+                <p>For my other project, I worked with Telegram Bot API, basic HTML parsing using bs4 python library, and deploying my bot on AWS.</p>
+                <p>From my university program, I’m familiar with C++ and C#</p>
+            </section>
+            <section>
+                <h2 class="title">Code example</h2>
+                <p>Random piece of code for demonstration purposes:</p>
+                <pre>
+                    <code>
+from app import app
+
+app.config.from_pyfile('config.py')
+
+if __name__ == "__main__":
+    app.run(debug = True)
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <h2 class="title">Projects</h2>
+                <p>Can be found on my <a href="https://github.com/sweetAme">GitHub</a> profile</p>
+            </section>
+            <section>
+                <h2 class="title">Education</h2>
+                <p>On my second year of Admiral Makarov State University of Maritime and Inland Shipping on information security specialization.</p>
+            </section>
+            <section>
+                <h2 class="title">English</h2>
+                <p>EPAM English test result: B2</p>
+                <p>Currently taking speaking practice lessons with native speakers.</p>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a href="https://github.com/sweetAme"><img class="github-logo" src="./images/github.png" alt="GitHub logo"></a>
+                <a href="https://youtube.com"><img class="youtube-logo" src="./images/youtube.png" alt="Youtube logo"></a>
+                <a href="https://rs.school/js/"><img class="rs-logo" src="./images/rs_school_js.svg" alt="rs_school logo"></a>
+            </div>  
+        </footer>
+    </div>
+</body>
+</html>
