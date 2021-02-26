@@ -8,8 +8,8 @@ body {
 }
 
 footer {
-    background-color: rgb(77, 77, 77);
-    margin: 0px;
+    background-color: rgb(77,77, 77);
+    margin-top: 50px;
     padding: 30px;
     text-align: center;
 }
@@ -78,6 +78,7 @@ code {
 }
 
 .general p {
+    margin-top: 3px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -91,6 +92,12 @@ code {
 .header {
     display: flex;
     margin-bottom: 30px;
+}
+
+.credentials {
+    position: relative;
+    top: 25px;
+    left: 10px;
 }
 
 .name {
