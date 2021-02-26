@@ -10,8 +10,8 @@ body {
 footer {
     background-color: rgb(77, 77, 77);
     margin: 0px;
-    padding: 50px;
-    
+    padding: 30px;
+    text-align: center;
 }
 
 code {
@@ -33,6 +33,33 @@ code {
     top: 20px;
     width: 150px;
     height: 150px;
+    border: 2px solid #15a9ff;
+    border-radius: 100%;
+}
+
+.socials .logo {
+    width: 40px;
+    height: 40px;
+}
+
+.github-logo {
+    display: inline-block;
+    max-width: 8%;
+}
+
+.rs-logo {
+    display: inline-block;
+    margin-left: 30px;
+    max-width: 15%;
+    position: relative;
+    top: -8px;
+}
+
+.youtube-logo {
+    display: inline-block;
+    margin-left: 30px;
+    max-width: 10%;
+    position: relative;
 }
 
 .general {
@@ -85,12 +112,17 @@ code {
 
 .socials {
     position: relative;
-    left: -170px;
+    left: -190px;
     top: 25px;
     margin-top: 70px;
     margin-bottom: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 0;
 }
 
-.socials li {
-    margin: 10px 0;
+.socials p {
+    display: inline;
+    position: relative;
+    top: -13px;
 }
